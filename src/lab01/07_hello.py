@@ -1,4 +1,4 @@
-s = input()
+s = input('in: ')
 
 word = ''
 letter1 = 0
@@ -10,9 +10,12 @@ for i in range(len(s)):
     if len(word) == 1 and s[i] in '0123456789':
         word += s[i+1]
         letter2 = i+1
+        break
 
 d = letter2-letter1
 for i in range(letter2+d, len(s), d):
     word += s[i]
+    if s[i] == '.':
+        break
 
-print(word)
+print(f'out: {word}')
