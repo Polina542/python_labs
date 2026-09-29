@@ -174,8 +174,9 @@ def format_record(rec):
     return s
 ```
 
-Неправильный ввод:
 ![alt text](../../images/lab02/image_lab02_03_1.png)
+
+Неправильный ввод:
 ![alt text](../../images/lab02/image_lab02_03_2.png)
 ![alt text](../../images/lab02/image_lab02_03_3.png)
 ![alt text](../../images/lab02/image_lab02_03_4.png)
