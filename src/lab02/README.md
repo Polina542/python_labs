@@ -2,11 +2,11 @@
 ## Задание 1
 1. 
 
-'''
+```
 def min_max(nums):
-    """
+    '''
     возвращает минимальный и максимальный элементы списка nums в виде кортежа (min,max)
-    """
+    '''
 
     if len(nums) == 0:
         raise ValueError('пустой список')
@@ -19,13 +19,13 @@ def min_max(nums):
         if x > mx:
             mx = x
     return (mn, mx)
-'''
+```
 
 ![alt text](../../images/lab02/image_lab02_01_1.png)
 
 2. 
 
-'''
+```
 def bubble_sort(l):  # пузырьковая сортировка
     n = len(l)
     for i in range(n):
@@ -39,13 +39,13 @@ def unique_sorted(nums):
 
     unique_nums = list(set(nums))
     return bubble_sort(unique_nums)
-'''
+```
 
 ![alt text](../../images/lab02/image_lab02_01_2.png)
 
 3. 
 
-'''
+```
 def flatten(mat):
     '''расплющивает матрицу в один список по строкам'''
 
@@ -60,14 +60,14 @@ def flatten(mat):
             raise TypeError(
                 'элемент внутри списка не является списком или кортежем')
     return l
-'''
+```
 
 ![alt text](../../images/lab02/image_lab02_01_3.png)
 
 ## Задание 2
 1. 
 
-'''
+```
 def transpose(mat):
     '''транспонирует прямоугольную матрицу'''
 
@@ -91,13 +91,13 @@ def transpose(mat):
             transposed_mat[j][i] = mat[i][j]
 
     return transposed_mat
-'''
+```
 
 ![alt text](../../images/lab02/image_lab02_02_1.png)
 
 2. 
 
-'''
+```
 def row_sums(mat):
     '''возвращает список с суммой чисел в каждой строке матрицы'''
 
@@ -110,13 +110,13 @@ def row_sums(mat):
             raise ValueError("строки разной длины")
 
     return [sum(row) for row in mat]
-'''
+```
 
 ![alt text](../../images/lab02/image_lab02_02_2.png)
 
 3. 
 
-'''
+```
 def col_sums(mat):
     '''возвращает список с суммой чисел в каждом столбце матрицы'''
 
@@ -125,14 +125,14 @@ def col_sums(mat):
     
     transposed_mat = transpose(mat)
     return row_sums(transposed_mat)
-'''
+```
 
 ![alt text](../../images/lab02/image_lab02_02_3.png)
 
 ## Задание 3
 
 
-'''
+```
 def format_record(rec):
     '''возвращает строку вида: Фамилия И.О., гр. <группа>, GPA <оценка>. При некорректной записи возвращает ValueError'''
     
@@ -174,7 +174,7 @@ def format_record(rec):
         raise ValueError('неверно введена оценка')
 
     return s
-'''
+```
 
 Неправильный ввод:
 ![alt text](../../images/lab02/image_lab02_03_1.png)
