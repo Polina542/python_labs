@@ -133,6 +133,9 @@ def col_sums(mat):
 ```
 def format_record(rec):
     '''возвращает строку вида: Фамилия И.О., гр. <группа>, GPA <оценка>. При некорректной записи возвращает ValueError'''
+
+    if type(rec) != tuple:
+        raise TypeError('введен не кортеж)))))))')
     
     s = ''
     if len(rec) != 3:
