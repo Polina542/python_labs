@@ -53,4 +53,6 @@ def format_record(rec):
 # print(format_record(("Петров Пётр", "", 5.0)))
 # print(format_record(("Петров Пётр", "IKBO-12", 6.0)))
 # print(format_record(("Петров", "IKBO-12", 5.0)))
-print(format_record(("Петров Пётр", "IKBO-12")))
+# print(format_record(("Петров Пётр", "IKBO-12")))
+
+# print(format_record(['fkfkfk fkfkkf fkkfkf', 'fjjfjf-fjf', 4.0]))
