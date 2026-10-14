@@ -29,7 +29,7 @@ def normalize(text: str, *, casefold: bool = True, yo2e: bool = True) -> str:
     return text
 ```    
 
-![alt text](image_lab03_01_1.png)
+![alt text](../../images/lab03/image_lab03_01_1.png)
 
 2. 
 ```
@@ -42,7 +42,7 @@ def tokenize(text: str) -> list[str]:
     return [match.group() for match in re.finditer(pattern, text)]
 ```
 
-![alt text](image_lab03_01_2.png)
+![alt text](../../images/lab03/image_lab03_01_2.png)
 
 3. 
 ```
@@ -54,7 +54,7 @@ def count_freq(tokens: list[str]) -> dict[str, int]:
     return freq
 ```
 
-![alt text](image_lab03_01_3.png)
+![alt text](../../images/lab03/image_lab03_01_3.png)
 
 4. 
 ```
@@ -70,7 +70,7 @@ def top_n(freq: dict[str, int], n: int = 5) -> list[tuple[str, int]]:
     return sorted_items[:n]
 ```
 
-![alt text](image_lab03_01_4.png)
+![alt text](../../images/lab03/image_lab03_01_4.png)
 
 
 ## Задание B
@@ -119,5 +119,5 @@ elif tablitsa == 'true':
 
 ```
 
-![alt text](image_lab03_02_1.png)
-![alt text](image_lab03_02_2.png)
+![alt text](../../images/lab03/image_lab03_02_1.png)
+![alt text](../../images/lab03/image_lab03_02_2.png)
