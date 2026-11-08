@@ -174,6 +174,7 @@ input.txt
 ![alt text](../../images/lab06/image3.png)
 
 ### out
+
 people.csv
 ```
 age,name
@@ -206,15 +207,18 @@ people.json
 ```
 
 people.xlsx
+
 ![alt text](../../images/lab06/image4.png)
 
 
 ## Вывод справки --help
 
 cli_text.py
+
 ![alt text](../../images/lab06/image5.png)
 
 cli_convert.py
+
 ![alt text](../../images/lab06/image6.png)
 
 ## Обработка ошибок
