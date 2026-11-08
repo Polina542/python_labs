@@ -148,7 +148,7 @@ if __name__ == "__main__":
 
 ## Запуск программы
 
-## cat
+### cat
 
 people.csv
 ```
@@ -161,7 +161,7 @@ David,28
 
 ![alt text](../../images/lab06/image1.png)
 
-## stats
+### stats
 
 input.txt
 ```
@@ -170,10 +170,10 @@ input.txt
 
 ![alt text](../../images/lab06/image2.png)
 
-## cli_convert.py
+### cli_convert.py
 ![alt text](../../images/lab06/image3.png)
 
-out
+### out
 people.csv
 ```
 age,name
