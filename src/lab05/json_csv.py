@@ -12,11 +12,11 @@ def json_to_csv(json_path: str, csv_path: str) -> None:
     source = Path(json_path)
     destination = Path(csv_path)
 
-    if source.suffix.lower() != ".json":
-        raise ValueError("Ожидается файл с расширением .json")
+    # if source.suffix.lower() != ".json":
+    #     raise ValueError("Ожидается файл с расширением .json")
 
-    if destination.suffix.lower() != ".csv":
-        raise ValueError("Ожидается файл с расширением .csv")
+    # if destination.suffix.lower() != ".csv":
+    #     raise ValueError("Ожидается файл с расширением .csv")
 
     with source.open("r", encoding="utf-8") as file:
         data = json.load(file)
